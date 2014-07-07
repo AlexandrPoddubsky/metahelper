@@ -100,20 +100,20 @@ Finally `MetaHelper` can also take care of [Twitter Cards](https://dev.twitter.c
 All attribute names of all the Twitter Cards available follow the below convention:
 | Twitter Card Attribute Style     | MetaHelper Style        |
 |----------------------------------|-------------------------|
-| twitter:app                      | $helper->app()          |
-| twitter:app:id:googleplay        | $helper->appIdGoogleplay|
+| twitter:app                      | `$helper->app()`          |
+| twitter:app:id:googleplay        | `$helper->appIdGoogleplay`|
 
 The only exception is the Summery Card with Large Image where for its `twitter:image:src` the normal `image` attribuet is used.
 
 | Twitter Card                   | MetaHelper Keyword  |
 |--------------------------------|---------------------|
-| Summery Card                   | `SummeryCard`
-| Summery With Large Image Card  | `SummeryImageCard`
-| Gallery Card                   | `GalleryCard`
-| Photo Card                     | `PhotoCard`
-| Player Card                    | `PlayerCard`
-| App Card                       | `AppCard`
-| Product Card                   | `ProductCard`
+| Summery Card                   | `SummeryCard`    |
+| Summery With Large Image Card  | `SummeryImageCard`|
+| Gallery Card                   | `GalleryCard`|
+| Photo Card                     | `PhotoCard`|
+| Player Card                    | `PlayerCard`|
+| App Card                       | `AppCard`    |        
+| Product Card                   | `ProductCard`       |
 
 It is important to keep in mind that all of these meta data can be used together like so:
 
