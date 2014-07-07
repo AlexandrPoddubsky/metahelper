@@ -98,10 +98,11 @@ Finally `MetaHelper` can also take care of [Twitter Cards](https://dev.twitter.c
     $metaHelper->setCard()->title("A New Title");
 
 All attribute names of all the Twitter Cards available follow the below convention:
+
 | Twitter Card Attribute Style     | MetaHelper Style        |
 |----------------------------------|-------------------------|
 | twitter:app                      | `$helper->app()`          |
-| twitter:app:id:googleplay        | `$helper->appIdGoogleplay`|
+| twitter:app:name:googleplay        | `$helper->appNameGoogleplay`|
 
 The only exception is the Summery Card with Large Image where for its `twitter:image:src` the normal `image` attribuet is used.
 
