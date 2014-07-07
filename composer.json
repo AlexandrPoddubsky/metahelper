@@ -1,0 +1,20 @@
+{
+    "name": "jwebkid/metahelper",
+    "description": "This is a library which helps web developers to better manage Open Graph, Twitter Cards and HTML Meta Data which are important for Search Engine Optimization.",
+    "keywords":["Open Graph", "OG", "SEO", "Search Engine Optimization", "metahelper", "Meta", "Tags", "Twitter", "Cards"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luca Tabone",
+            "email": "taboneluca3@gmail.com"
+        }
+    ],
+    "autoload": {
+    	"psr-0": {
+    		"JWebKid" : "src/"
+    	}
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {}
+}
